@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31d56661b1b146678d5f2a62be112a79, type: 3}
+  m_Name: Makeup Config
+  m_EditorClassIdentifier: 
+  _lipstick:
+  - Tool: {fileID: -7973376512685140356, guid: 6815e610ff8f1db4cba1a5426b5a0960, type: 3}
+    Result: {fileID: -7973376512685140356, guid: 44a3cd71e0401ac4881db96b4e444be6, type: 3}
+  - Tool: {fileID: -1451781210149412861, guid: 8630e41033c938344b8eb3f98aa3903e, type: 3}
+    Result: {fileID: -1451781210149412861, guid: ae934fc1dc286c949946a4054613ce01, type: 3}
+  - Tool: {fileID: 1764545999717624069, guid: 231d85714060e474a901fc16c4d424ae, type: 3}
+    Result: {fileID: 1764545999717624069, guid: 55ce177583128a649ad47dbdbe106d8c, type: 3}
+  - Tool: {fileID: 3291508729261550910, guid: 8575a63bcfed7524bbd9e3498bccaf41, type: 3}
+    Result: {fileID: 3291508729261550910, guid: b7ae6a58ad086dc4b8bf4e257570a5bc, type: 3}
+  - Tool: {fileID: 8171380537145016961, guid: 0e0b877db2f437d439adbac62ad4c502, type: 3}
+    Result: {fileID: 8171380537145016961, guid: e3f036026a65c444abe93894e6d7d818, type: 3}
+  - Tool: {fileID: 8831518379824529241, guid: 381efd5f152d324488117929b8887c58, type: 3}
+    Result: {fileID: 8831518379824529241, guid: 3bde96a9a3ff5a14786186567953b5d3, type: 3}
+  _blush:
+  - Tool: {fileID: 2735780376057595307, guid: d61cfcd0433000d4eafcc83849cd21d1, type: 3}
+    Result: {fileID: 2735780376057595307, guid: e392b1a6b6d7e934894b1e18f139da7d, type: 3}
+  - Tool: {fileID: -1322443347611866250, guid: 3bc861fb0129627489e7184d89aed95e, type: 3}
+    Result: {fileID: -1322443347611866250, guid: 8cd065f2bb7f7e743ad40f1b6b44507b, type: 3}
+  - Tool: {fileID: -5595769614546131945, guid: 5040700be7e8af841bb2f1735868c0d6, type: 3}
+    Result: {fileID: -5595769614546131945, guid: b8b61315412dada4dac58194cf7f9bab, type: 3}
+  - Tool: {fileID: 7313455164188800378, guid: e6e1b5d087f2a3d458f12902cafcb23b, type: 3}
+    Result: {fileID: 7313455164188800378, guid: 21434b407badbaa4b9626bd6d758992e, type: 3}
+  - Tool: {fileID: -5019120186524738833, guid: 690b911567a79ca4fb3eba31313cecc1, type: 3}
+    Result: {fileID: -5019120186524738833, guid: 85494d952f4e26d4c88a6cf38f5d3b6c, type: 3}
+  - Tool: {fileID: 5546873559369261594, guid: 4468b162c5cc2ce428e3e154734e41e5, type: 3}
+    Result: {fileID: 5546873559369261594, guid: 4279fca7619750d4e919c9c3450ccda3, type: 3}
+  - Tool: {fileID: -1254107489049226150, guid: 7a0489d21b2f4674e99a602e0a9b68b9, type: 3}
+    Result: {fileID: -1254107489049226150, guid: 205e9e28632e3844b924e35ebbfb18f3, type: 3}
+  - Tool: {fileID: -8124131503724612360, guid: 4b19fe4540cb9ee4a901d44ec237ed4a, type: 3}
+    Result: {fileID: -8124131503724612360, guid: 8c7cc1ba30cdcd6439b33c85f75a6781, type: 3}
+  - Tool: {fileID: -4166999968946950401, guid: 5596b2120ac419c42a19131decb16012, type: 3}
+    Result: {fileID: -4166999968946950401, guid: c4b43dd6a2dc211488cc92cd40eae7b7, type: 3}
+  _shadows:
+  - Tool: {fileID: -9083023727679918253, guid: 1989aee59c75a7f46a27d38d34ce1f3e, type: 3}
+    Result: {fileID: -9083023727679918253, guid: aaa6c0ceaaeae094ebfa9e0d935404ba, type: 3}
+  - Tool: {fileID: 3832856891997755353, guid: e8c41f269913f5142af1b357e49296fd, type: 3}
+    Result: {fileID: 3832856891997755353, guid: d20e66fac01c39249afbaa70d30a2988, type: 3}
+  - Tool: {fileID: -2807799779774319300, guid: 997d505071f3d31438cfb284c9b96c28, type: 3}
+    Result: {fileID: -2807799779774319300, guid: 0014414205ee17e4d96ad79a4f18ff5d, type: 3}
+  - Tool: {fileID: -283848679355503933, guid: f68bbadbef4724844a09fd458a97f8b9, type: 3}
+    Result: {fileID: -283848679355503933, guid: 34be85d28f7384a479799c49841ed27a, type: 3}
+  - Tool: {fileID: 491726396686365125, guid: 7e65ad3f7ac224044b2c641d26b3e6b7, type: 3}
+    Result: {fileID: 491726396686365125, guid: 885d5857d24c3a74190d9cb56adf4344, type: 3}
+  - Tool: {fileID: 8879923056484331699, guid: 41bc652db4dc9724b99b48202676fd21, type: 3}
+    Result: {fileID: 8879923056484331699, guid: 9ebc633127c12424c9d6314bae77a70e, type: 3}
+  - Tool: {fileID: 7146465050932404380, guid: c7072ed7b5a851c459bb9017ffac81da, type: 3}
+    Result: {fileID: 7146465050932404380, guid: 28524a124e6c49340b26bc85ea6e882d, type: 3}
+  - Tool: {fileID: 1690259320168040865, guid: ffa46ab988e72c540be6ab1da6736b19, type: 3}
+    Result: {fileID: 1690259320168040865, guid: 5df3d667dd3b8d542ba5b6a85052d0d6, type: 3}
+  - Tool: {fileID: 8290768584984152016, guid: 0991c62ea45cf5c46b86a5ebef7985ea, type: 3}
+    Result: {fileID: 8290768584984152016, guid: 0938004f3f92ca6428c2ec9f8e7dbe18, type: 3}

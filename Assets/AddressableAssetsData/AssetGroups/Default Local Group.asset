@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: d009e0af483f34040832e9878d71448c
+  m_SerializeEntries:
+  - m_GUID: eb449d32c67b0554d860c8445c0a49eb
+    m_Address: Assets/Game/Configurations/Makeup Config.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MakeupConfig
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9a9fb79c554dcb48a9bd03b621c0585
+    m_Address: Assets/Game/Configurations/Cosmetic Config.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CosmeticConfig
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c25f24474bd359a41b2459be820d76bf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5c36fd2493233d04e8f46f7fe2fe83dd, type: 2}
+    - {fileID: 11400000, guid: 2da7a672c7c26da46903d32dc8ae7c7d, type: 2}
