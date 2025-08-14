@@ -9,6 +9,7 @@ namespace Game.Scripts.Configurations
     {
         [SerializeField] private Sprite _cosmeticBackground;
         [SerializeField] private Sprite _blushBrush;
+        [SerializeField] private Sprite _eyeBrush;
         [SerializeField] private Sprite _cream;
         [SerializeField] private Sprite _loofah;
         [Space]
@@ -19,6 +20,7 @@ namespace Game.Scripts.Configurations
         public Sprite BlushBrush => _blushBrush;
         public Sprite Cream => _cream;
         public Sprite Loofah => _loofah;
+        public Sprite EyeBrush => _eyeBrush;
         public List<CosmeticTabSettings> CosmeticTabs => _cosmeticTabs;
         #endregion
     }

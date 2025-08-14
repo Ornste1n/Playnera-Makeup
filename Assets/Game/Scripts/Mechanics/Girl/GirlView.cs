@@ -7,6 +7,7 @@ namespace Game.Scripts.Mechanics.Girl
     public class GirlView : MonoBehaviour
     {
         [SerializeField] private Image m_Icon;
+        [SerializeField] private RectTransform _facePoint;
 
         [Header("Makeup image")]
         [SerializeField] private Image _blushImage;
@@ -19,6 +20,7 @@ namespace Game.Scripts.Mechanics.Girl
         public Image Girl => m_Icon;
         public Image BlushImage => _blushImage;
         public Image LipstickImage => _lipstickImage;
+        public RectTransform FacePoint => _facePoint;
         public Image FirstEyeShadowImage => _firstEyeShadowImage;
         public Image SecondEyeShadowImage => _secondEyeShadowImage;
         public RectTransform AcneContainer => _acneContainer;

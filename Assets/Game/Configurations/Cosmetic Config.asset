@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cosmeticBackground: {fileID: 5853329111503374179, guid: bda0daaa3939dba459e3db6b7ba20eea, type: 3}
   _blushBrush: {fileID: 8384921574167642751, guid: a522563aa60618b4c9e9296e545de1a1, type: 3}
+  _eyeBrush: {fileID: 4665549093041750926, guid: 2531676739ad6d344a19a9ca94699032, type: 3}
   _cream: {fileID: -3356302069181093370, guid: 0dded0d7e81ccb543bac467598e90954, type: 3}
   _loofah: {fileID: 1206227704694907345, guid: e6821ee2877419e4292171e4c487a085, type: 3}
   _cosmeticTabs:

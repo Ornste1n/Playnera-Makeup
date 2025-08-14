@@ -17,7 +17,7 @@ namespace Game.Scripts.Mechanics.Makeup
         
         public void OnPointerClick(PointerEventData eventData)
         {
-            _signalBus.Fire(new ClearFaceSignal());
+            _signalBus.Fire(new MakeupSignal(MakeupActions.ClearFace));
         }
     }
 }

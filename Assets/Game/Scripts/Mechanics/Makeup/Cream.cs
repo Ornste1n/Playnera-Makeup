@@ -1,8 +1,9 @@
 ﻿using Zenject;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Game.Scripts.ZenjectSystem;
-using Game.Scripts.Mechanics.Hand;
+using Game.Scripts.Mechanics.Girl;
 
 namespace Game.Scripts.Mechanics.Makeup
 {
@@ -20,12 +21,28 @@ namespace Game.Scripts.Mechanics.Makeup
         
         public void OnPointerClick(PointerEventData eventData)
         {
-            _signalBus.Fire(new HandMoveSignal()
-            {
-                MoveData = new HandMoveData { Position = m_Transform.position }
-            });
+            _signalBus.Fire(new TakeMakeupToolSignal(new MakeupSignal(MakeupActions.ClearFace), m_Transform, AnimationOnFace));
         }
 
+        private Sequence AnimationOnFace(RectTransform hand, Vector3 itemWorld, GirlView girlView)
+        {
+            Sequence sequence = DOTween.Sequence();
+            RectTransform face = girlView.FacePoint;
+            Vector3 targetRight = face.position + new Vector3(100, 0, 0);
+            Vector3 targetLeft = face.position + new Vector3(-200, 0, 0);
+
+            sequence.Append(hand.DOMove(targetRight, 0.5f)
+                    .SetEase(Ease.InOutSine))
+                .Append(hand.DOMove(face.position, 0.5f)
+                    .SetEase(Ease.InOutSine))
+                .Append(hand.DOMove(targetLeft, 0.5f)
+                    .SetEase(Ease.InOutSine))
+                .Append(hand.DOMove(face.position, 0.5f)
+                    .SetEase(Ease.InOutSine));
+
+            return sequence;
+        }
+        
         private void OnValidate()
         {
             if (m_Transform == null)
