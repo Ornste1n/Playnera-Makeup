@@ -21,10 +21,10 @@ namespace Game.Scripts.Mechanics.Makeup
         
         public void OnPointerClick(PointerEventData eventData)
         {
-            _signalBus.Fire(new TakeMakeupToolSignal(new MakeupSignal(MakeupActions.ClearFace), m_Transform, AnimationOnFace));
+            _signalBus.Fire(new TakeMakeupToolSignal(new MakeupSignal(MakeupActions.ClearAcne), m_Transform, AnimationOnFace));
         }
 
-        private Sequence AnimationOnFace(RectTransform hand, Vector3 itemWorld, GirlView girlView)
+        private Sequence AnimationOnFace(RectTransform hand, Vector3 itemWorld, GirlView girlView) // анимация крема
         {
             Sequence sequence = DOTween.Sequence();
             RectTransform face = girlView.FacePoint;

@@ -2,6 +2,9 @@
 
 namespace Game.Scripts.Core.Resource
 {
+    /// <summary>
+    /// Содержит ссылки на основнвые конфиги сцены
+    /// </summary>
     public class GameResources
     {
         public CosmeticConfig CosmeticConfig { get; private set; }

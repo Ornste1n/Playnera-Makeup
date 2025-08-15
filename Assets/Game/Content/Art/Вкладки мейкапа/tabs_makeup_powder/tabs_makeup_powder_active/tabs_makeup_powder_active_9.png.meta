@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tabs_makeup_powder_active_9_0: 477915903493402997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

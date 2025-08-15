@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tabs_makeup_blush_4_0: 4432923064242696705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

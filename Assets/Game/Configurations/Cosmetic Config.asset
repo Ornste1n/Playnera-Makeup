@@ -18,8 +18,6 @@ MonoBehaviour:
   _cream: {fileID: -3356302069181093370, guid: 0dded0d7e81ccb543bac467598e90954, type: 3}
   _loofah: {fileID: 1206227704694907345, guid: e6821ee2877419e4292171e4c487a085, type: 3}
   _cosmeticTabs:
-  - DisableMode: {fileID: -2882974768894518874, guid: fe71eba0b0e6bf84f81966bc751a46c9, type: 3}
-    EnableMode: {fileID: 477915903493402997, guid: 532b46dc556a404409fae2a02e997800, type: 3}
   - DisableMode: {fileID: 4432923064242696705, guid: 7dc8f2542e56b1a439f4a664cdc4671c, type: 3}
     EnableMode: {fileID: -1408717137413226234, guid: 489e7ded915294641bdc65934797bb9f, type: 3}
   - DisableMode: {fileID: 5566531877271220411, guid: 39306104f4f7f3b46a4190dbd4206549, type: 3}

@@ -34,7 +34,7 @@ namespace Game.Scripts.ZenjectSystem.Installers
             Container.DeclareSignal<ActivateDrag>();
             Container.DeclareSignal<MakeupSignal>();
             Container.DeclareSignal<TakeMakeupToolSignal>();
-            Container.DeclareSignal<EndMakeupAnimation>();
+            Container.DeclareSignal<EndMakeup>();
             Container.DeclareSignal<DroppedOnFaceSignal>();
         }
     }

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tabs_makeup_powder_5_0: -2882974768894518874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

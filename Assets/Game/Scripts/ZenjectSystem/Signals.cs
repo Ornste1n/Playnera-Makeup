@@ -37,8 +37,8 @@ namespace Game.Scripts.ZenjectSystem
         }
     }
 
+    public struct EndMakeup { }
     public struct ActivateDrag { }
-    public struct EndMakeupAnimation { }
 
     public struct DroppedOnFaceSignal
     {

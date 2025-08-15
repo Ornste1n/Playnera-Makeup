@@ -8,6 +8,10 @@ using UnityEngine.SceneManagement;
 
 namespace Game.Scripts.Core.Client
 {
+    /// <summary>
+    /// Для загрузки ресурсов игры
+    /// Загружает конфигурации косметички, кисточек и т.д.
+    /// </summary>
     public class Bootstrap : MonoBehaviour
     {
         [SerializeField] private ProgressBar _progressBar;

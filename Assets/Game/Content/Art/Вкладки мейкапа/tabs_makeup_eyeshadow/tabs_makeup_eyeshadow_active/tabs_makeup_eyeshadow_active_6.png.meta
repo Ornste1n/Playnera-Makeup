@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tabs_makeup_eyeshadow_active_6_0: -2460248190930681085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

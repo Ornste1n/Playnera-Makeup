@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tabs_makeup_lipstick_3_0: 5566531877271220411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

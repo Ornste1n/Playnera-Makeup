@@ -5,6 +5,9 @@ using UnityEngine.EventSystems;
 
 namespace Game.Scripts.Mechanics.Makeup
 {
+    /// <summary>
+    /// Класс-View для теней, помод и т.д. с чем можно взаимодействовать
+    /// </summary>
     [RequireComponent(typeof(Image))]
     public class MakeupTool : MonoBehaviour, IPointerClickHandler
     {

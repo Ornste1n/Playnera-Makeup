@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eyeshadow_color_09_0: 8290768584984152016
+      eyeshadow_color_09_1: 7936734021327037710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

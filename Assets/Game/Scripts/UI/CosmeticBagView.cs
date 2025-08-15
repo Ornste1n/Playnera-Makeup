@@ -25,6 +25,7 @@ namespace Game.Scripts.UI
         public List<MakeupTool> Lipsticks => _lipsticks;
         public List<MakeupTool> Shadows => _shadows;
         public Image BlushBrush => _blushBrush;
+        public Image ShadowBrush => _eyeBrush;
         
         [Inject]
         private void Constructor(GameResources resources) => PresetImages(resources);

@@ -8,6 +8,9 @@ using Game.Scripts.Mechanics.Makeup;
 
 namespace Game.Scripts.Mechanics.Girl
 {
+    /// <summary>
+    /// Обрабатывает события нанесения макияжа, управляет View
+    /// </summary>
     public class GirlPresenter : IDisposable
     {
         private readonly GirlView _girlView;

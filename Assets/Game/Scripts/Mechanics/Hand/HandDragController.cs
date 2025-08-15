@@ -34,6 +34,7 @@ namespace Game.Scripts.Mechanics.Hand
             enabled = true;
         }
 
+        #region Drag Handle
         public void OnBeginDrag(PointerEventData eventData)
         {
             if (RectTransformUtility.ScreenPointToLocalPointInRectangle(m_CanvasRect, eventData.position,
@@ -54,22 +55,33 @@ namespace Game.Scripts.Mechanics.Hand
 
         public void OnEndDrag(PointerEventData eventData)
         {
-            if (!DroppedOnFace(eventData, out Vector3 tipWorldPos)) return;
-            
+            if (!TryGetTipWorldPos(out Vector3 tipWorldPos)) return;
+            if (!IsOverFace(tipWorldPos, eventData.pressEventCamera)) return;
+
             enabled = false;
             _signalBus.Fire(new DroppedOnFaceSignal(tipWorldPos));
         }
-        
-        private bool DroppedOnFace(PointerEventData eventData, out Vector3 tipWorldPos)
-        {
-            RectTransform childItemRect = _handView.ItemPosition.GetChild(0).GetComponent<RectTransform>();
-            Vector3 localTop = new (0, childItemRect.rect.height * (1f - childItemRect.pivot.y), 0);
-            tipWorldPos = childItemRect.TransformPoint(localTop);
+        #endregion
 
+        // Нахожу кончик инструмента, для точного определения попадания по лицу
+        private bool TryGetTipWorldPos(out Vector3 tipWorldPos) 
+        {
+            tipWorldPos = default;
+
+            if (_handView.ItemPosition.childCount == 0) return false;
+
+            RectTransform childItemRect = _handView.ItemPosition.GetChild(0) as RectTransform;
+            if (childItemRect == null) return false;
+
+            Vector3 localTop = new Vector3(0, childItemRect.rect.height * (1f - childItemRect.pivot.y), 0);
+            tipWorldPos = childItemRect.TransformPoint(localTop);
+            return true;
+        }
+
+        private bool IsOverFace(Vector3 worldPos, Camera eventCamera)
+        {
             return RectTransformUtility.RectangleContainsScreenPoint(
-                _girlView.FacePoint,
-                tipWorldPos,
-                eventData.pressEventCamera
+                _girlView.FacePoint, worldPos, eventCamera
             );
         }
         
